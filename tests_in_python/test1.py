@@ -8,7 +8,7 @@ class Test_First(unittest.TestCase):
 
     def test_basics_1(self):
         r = [4, 12, 3, 20, 50, 8, 5, 13, 30];
-        x = 12;
+        x = 20;
         n = len(r);
         res = solve_me(r, n, x)
         if (res == -1):

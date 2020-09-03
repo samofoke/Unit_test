@@ -13,9 +13,10 @@ def solve_me(arr, n, x):
     # return -1
     
     #second solution also works.
-    i = 0
-    while (i in range(0,n)):
-        if (arr[i] == x):
-            return i
-            i = i + 1
-        return -1
+    # i = 0
+    # while (i in range(0,n)):
+    #     if (arr[i] == x):
+    #         return i
+    #         i = i + 1
+    #     return -1
+        return 0
